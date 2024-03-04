@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useMemo } from 'react';
 
 function useGetState<S>(initialState?: S) {
   const [state, setState] = useState(initialState);
