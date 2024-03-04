@@ -1,0 +1,6 @@
+{
+    "extends": "../../tsconfig.hooks.json",
+    "compilerOptions": {
+        "rootDir": "src"
+    }
+}

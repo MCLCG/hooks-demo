@@ -1,0 +1,14 @@
+// preser-env preset-react
+// 这些就是工程化的东西,就是这样写的
+// 不止会用,能让别人用好
+{
+    "presets": [
+        [
+            "@babel/env"
+        ],
+        "@babel/react"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+}
